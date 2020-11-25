@@ -30,7 +30,6 @@ class MyWidget(QMainWindow):
     def draw_circle(self, qp):
         qp.setBrush(QColor(255, 255, 0))
         qp.drawEllipse(self.x - self.r, self.y - self.r, self.r, self.r)
-        print(self.x, self.y, self.r)
 
 
 app = QApplication(sys.argv)
